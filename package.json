@@ -25,8 +25,7 @@
     "lint:styles": "stylelint '**/*.{css,scss}' --report-needless-disables --report-invalid-scope-disables",
     "sync": "carbon-cli sync",
     "test": "cross-env BABEL_ENV=test jest",
-    "test:e2e": "cross-env BABEL_ENV=test jest -c jest.e2e.config.js",
-    "postinstall": "husky install"
+    "test:e2e": "cross-env BABEL_ENV=test jest -c jest.e2e.config.js"
   },
   "resolutions": {
     "@types/react": "~17.0.2",
@@ -65,7 +64,6 @@
     "eslint": "^7.28.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.4",
-    "husky": "^8.0.0",
     "jest": "^28.1.0",
     "jest-junit": "^14.0.0",
     "lerna": "^4.0.0",
