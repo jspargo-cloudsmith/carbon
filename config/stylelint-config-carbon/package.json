@@ -23,7 +23,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "stylelint": "^14.3.0"
+    "stylelint": "^13.0.0"
   },
   "dependencies": {
     "stylelint-a11y": "^1.2.3",
@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1",
-    "stylelint": "^14.3.0"
+    "stylelint": "^13.0.0"
   }
 }
